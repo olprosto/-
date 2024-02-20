@@ -1,0 +1,40 @@
+﻿<Window x:Class="Лучшая_работа.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Лучшая_работа"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="830">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <Button x:Name="page1" Content="№1" Height="35" MinHeight="10" Margin="5,5,5,5" Click="page1_Click"></Button>
+            <Button x:Name="page2" Content="№2" Height="35" MinHeight="10" Margin="5,5,5,5" Click="page2_Click"></Button>
+            <Button x:Name="page3" Content="№3" Height="35" MinHeight="10" Margin="5,5,5,5" Click="page3_Click"></Button>
+            <Button x:Name="page4" Content="№4" Height="35" MinHeight="10" Margin="5,5,5,5" Click="page4_Click"></Button>
+            <Button x:Name="page5" Content="№5" Height="35" MinHeight="10" Margin="5,5,5,5" Click="page5_Click"></Button>
+            <Button x:Name="page6" Content="№6" Height="35" MinHeight="10" Margin="5,5,5,5" Click="page6_Click"></Button>
+            <Button x:Name="page7" Content="№7" Height="35" MinHeight="10" Margin="5,5,5,5" Click="page7_Click"></Button>
+            <Button x:Name="page8" Content="№8" Height="35" MinHeight="10" Margin="5,5,5,5" Click="page8_Click"></Button>
+            <Button x:Name="page9" Content="№9" Height="35" MinHeight="10" Margin="5,5,5,5" Click="page9_Click"></Button>
+            <Button x:Name="page10" Content="№10" Height="35" MinHeight="10" Margin="5,5,5,5" Click="page10_Click"></Button>
+            <Button x:Name="page11" Content="№11" Height="35" MinHeight="10" Margin="5,5,5,5" Click="page11_Click"></Button>
+            <Button x:Name="page12" Content="№12" Height="35" MinHeight="10" Margin="5,5,5,5" Click="page12_Click"></Button>
+            <Button x:Name="page13" Content="№13" Height="35" MinHeight="10" Margin="5,5,5,5" Click="page13_Click"></Button>
+            <Button x:Name="page14" Content="№14" Height="35" MinHeight="10" Margin="5,5,5,5" Click="page14_Click"></Button>
+            <Button x:Name="page15" Content="№15" Height="35" MinHeight="10" Margin="5,5,5,5" Click="page15_Click"></Button>
+            <Button x:Name="page16" Content="№16" Height="35" MinHeight="10" Margin="5,5,5,5" Click="page16_Click"></Button>
+            <Button x:Name="page17" Content="№17" Height="35" MinHeight="10" Margin="5,5,5,5" Click="page17_Click"></Button>
+            <Button x:Name="page18" Content="№18" Height="35" MinHeight="10" Margin="5,5,5,5" Click="page18_Click"></Button>
+            <Button x:Name="page19" Content="№19" Height="35" MinHeight="10" Margin="5,5,5,5" Click="page19_Click"></Button>
+            <Button x:Name="page20" Content="№20" Height="35" MinHeight="10" Margin="5,5,5,5" Click="page20_Click"></Button>
+            <Button x:Name="page21" Content="№21" Height="35" MinHeight="10" Margin="5,5,5,5" Click="page21_Click"></Button>
+            <Button x:Name="page22" Content="№22" Height="35" MinHeight="10" Margin="5,5,5,5" Click="page22_Click"></Button>
+        </StackPanel>
+        <Frame x:Name="страница" Grid.Row="1" Background="LightBlue"></Frame>
+    </Grid>
+</Window>
